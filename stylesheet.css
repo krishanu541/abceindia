@@ -16,9 +16,11 @@
 }
 
 
-#serv{
-   
-      margin-top: -8%;
+
+  
+  @media only screen and (max-width: 991px){
+#serv{ padding-left:10%;
+         margin-top: -8%;
 }
 
 .service-box1 {
