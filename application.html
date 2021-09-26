@@ -116,20 +116,133 @@
 <br>
 
 
-<div class="form"> 
-  <div class="reg">
+
+<div class="container bg-secondary text-white">
+  <div class="row ">
+    <div class="col-12 "> 
+  <h2 class="text-center font-weight-bold text-uppercase">Registration Form </h2>
+  <p class="text-center"> Register Yourself to get admission in SURASHI INFORMATION TECHNOLOGY.</p>
+</div>
+</div>
+</div>
+
+
+
   
-    <h1><span class="badge badge-secondary"> Student Registration Form</span></h1>
-    <h2> <strong> </strong> </h2>
-  
+  <div class="container">
+    <form action="connections.php" method="POST">
+   
+
+<div class="row">
+  <div class="col-2">
+    <label for="course"> Select Course Category </label>
   </div>
 
+  <div class="col-4">
+    <select id="course" name="course">
+      <option value="2 years">2 years</option>
+      <option value="1 year">1 year</option>
+      <option value="6 months">6 months</option>
+    </select>
+  </div>
 
-  <div class="col-lg-3 ">
-  <label for="">First Name</label>
-  <input type="text" name="First Name" class="form-control" placeholder="Enter Your First Name">
-  </label>
-</div> </div>
+<div class="col-2">
+    <label for="country"> Select Course Name </label>
+  </div>
+
+  <div class="col-4">
+    <select id="country" name="country">
+      <option value="australia">DCA</option>
+      <option value="canada">ADCA</option>
+      <option value="usa">ADIT</option>
+    </select>
+  </div>
+</div>
+     
+    <div class="row">
+            <div class="col-2">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-4">
+              <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+            </div>
+            <div class="col-2">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-4">
+              <input type="text" id="lname" name="Last Name" placeholder="Your Last Name">
+     </div>
+     </div>
+     
+      
+
+<div class="row">
+  <div class="col-2">
+    <label for=""> Father's Name</label>
+  </div>
+
+  <div class="col-4">
+    <input type="text" id="" name="fathersname" placeholder="Father's Name">
+ </div>
+
+<div class="col-2">
+  <label for=""> Mother's Name</label>
+</div>
+
+    <div class="col-4">
+  <input type="text" id="" name="mothersname" placeholder="Mother's Name">
+    </div>
+</div>
+
+<div class="row">  
+<div class="col-2">
+  <label for=""> Date Of Birth</label>
+</div>
+
+<div class="col-4">
+  <input type="date" id="" name="dateofbirth">
+</div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-2">
+    <label for="Gender"> Gender </label>
+  </div>
+
+  <div class="col-4">
+    <select id="Gend" name="gender">
+      <option value="Male">Male</option>
+      <option value="female">Female</option>
+      <option value="Transgender">Transgender</option>
+    </select>
+
+
+
+  </div>
+<div class="col-2">
+  <label for="religion"> Religion </label>
+</div>
+
+<div class="col-4">
+  <select id="Rel" name="Religion">
+    <option value="Male">Hindu</option>
+    <option value="female">Buddist</option>
+    <option value="Transgender">Muslim</option>
+    <option value="Transgender">Chirstan</option>
+  </select>
+
+
+     </div>
+
+  
+<div class="row">
+  <input type="submit" value="Submit">
+</div>
+</form>
+</div>
+
 
 
 
